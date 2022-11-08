@@ -11,7 +11,6 @@ import { UsersAPI } from "../mockApi";
 import { times } from "lodash";
 import { User } from "../mockApi";
 
-/** Singleton toaster instance. Create separate instances for different options. */
 export const AppToaster = Toaster.create();
 
 const usersAPI = new UsersAPI(100);

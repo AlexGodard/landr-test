@@ -9,13 +9,14 @@ Note that this project does not actually make requests to a back-end server to g
 
 ## Getting Started
 
+You should have Node 14.17 or higher installed on your machine. If you don't, you can download it from [here](https://nodejs.org/en/download/).
 ```
-git clone REPO_NAME
+git clone git@github.com:AlexGodard/landr-test.git
 npm install
 npm run dev
 ```
 
-The website should then be accessible at http://localhost:5137.
+The website should then be accessible at http://localhost:5173. 
 
 ## Running tests
 
@@ -42,6 +43,7 @@ This project makes heavy use of React Hooks and functional components. Make sure
 - Split the free-form address input into multiple inputs (street, city, zip code, etc.)
 - Use a text-mask to format the phone number input
 - Validate the inputs in the mock API with `tiny-invariant`
+- Toasts should always be visible on the screen, even when scrolling
 
 
 ## Interviewer notes
