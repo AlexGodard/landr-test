@@ -12,6 +12,7 @@ Note that this project does not actually make requests to a back-end server to g
 You should have Node 14.17 or higher installed on your machine. If you don't, you can download it from [here](https://nodejs.org/en/download/).
 ```
 git clone git@github.com:AlexGodard/landr-test.git
+cd landr-test
 npm install
 npm run dev
 ```
@@ -47,4 +48,4 @@ This project makes heavy use of React Hooks and functional components. Make sure
 
 
 ## Interviewer notes
-I did not implement the "select a specific contact and drill down into a more detailed view" as I felt like I have written enough code at this point for the reviewing team to be able to judge my front-end capabilities. I could eventually implement it, if requested.
+I did not implement the "select a specific contact and drill down into a more detailed view" as I felt like I had written enough code at this point for the reviewing team to be able to judge my front-end capabilities. I could eventually implement it, if requested.
